@@ -1,0 +1,33 @@
+{
+  "name": "wave6",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node sync-fix-test-Copy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vikash-ag",
+  "license": "ISC",
+  "description": "ArticleEmailNotification",
+  "dependencies": {
+    "@sendgrid/mail": "^6.1.4",
+    "express": "^4.16.2",
+    "jsforce": "^1.8.0",
+    "node-schedule": "^1.2.5",
+    "sendgrid": "^5.2.3"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prafulgadgetrek/ArticleEmailNotification.git"
+  },
+  "keywords": [
+    "article",
+    "email",
+    "notification"
+  ],
+  "bugs": {
+    "url": "https://github.com/prafulgadgetrek/ArticleEmailNotification/issues"
+  },
+  "homepage": "https://github.com/prafulgadgetrek/ArticleEmailNotification#readme"
+}
