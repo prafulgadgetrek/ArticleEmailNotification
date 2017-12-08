@@ -72,7 +72,7 @@ var email = function(toEmail, FirstN , emailC , UsersLen){
 	const msg = {
 	  to: toEmail,
 	  from: process.env.SENDGRID_FROM_EMAIL,
-	  subject: 'Updated Articles',
+	  subject: process.env.SENDGRID_EMAIL_SUBJECT,
 	  //text: 'Hello plain world!',
 	  //html: emailC + '<br ><br >Thank You!',
 	  templateId: process.env.SENDGRID_TEMPLATE_ID,
